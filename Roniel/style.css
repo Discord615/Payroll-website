@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form div {
+    display: inline-block;
+    width: 20vw;
+}
+
+#formContainer {
+    text-align: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color: white;
+    font-size: 1.5vw;
+    background-color: #421A4C;
+    border-radius: 20px;
+}
+
+#formContainer input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit] {
+    width: 100%;
+    height: 2vw;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom: 1vw;
+    display: inline-block;
+    align-items: center;
+}
+
+#formContainer input[type=radio] {
+    height: 2vw;
+    width: 2vw;
+}
+
+#businessName {
+    display: block;
+    margin: 0;
+    float: left;
+    font-size: 3vw;
+}
+
+nav {
+    justify-content: space-around;
+    background-color: #632673;
+}
+
+nav li a {
+    color: black;
+    background-color: #632673;
+    letter-spacing: 0.1vw;
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 0.5vw;
+    text-decoration: none;
+    max-height: 5vw;
+    display: block;
+}
+
+nav li a:hover {
+    color: gray;
+    background-color: #421A4C;
+}
+
+nav li {
+    float: right;
+    /* display: inline; */
+}
+
+.active {
+    color: gray;
+    background-color: #421A4C;
+}
+
+.nav-link {
+    /* display: flex;
+    justify-content: justify;
+    width: 10%; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
